@@ -52,7 +52,7 @@ namespace CommandAPI.Controllers
         {
             var commandModel = _mapper.Map<Command>(commandCreateDto);
             _repository.CreateCommand(commandModel);
-            _repository.SaveChange();
+            _repository.SaveChanges();
 
             var commandReadDto = _mapper.Map<CommandReadDto>(commandModel);
 

@@ -41,5 +41,15 @@ namespace CommandAPI.Data
         {
             return _context.CommandItems.FirstOrDefault(p => p.Id == id);
         }
+
+        public bool SaveChanges()
+        {
+            return (_context.SaveChanges() >= 0);
+        }
+
+        public void UpdateCommand(Command cmd)
+        {
+            //This does nothing
+        }
     }
 }
