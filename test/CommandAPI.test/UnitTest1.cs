@@ -1,3 +1,6 @@
+using System;
+using Xunit;
+
 namespace CommandAPI.test;
 
 public class UnitTest1

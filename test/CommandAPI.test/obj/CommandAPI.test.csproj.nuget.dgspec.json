@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\benle\\OneDrive\\Documents\\Online_Study\\Complete-ASP-NET-3-API-Tutorial-Book\\CommandAPISolution\\test\\CommandAPI.test\\CommandAPI.test.csproj": {}
+    "C:\\Users\\benle\\OneDrive\\Documents\\Online_Study\\Complete-ASP-NET-3-API-Tutorial-Book\\CommandAPISolution\\test\\CommandAPI.test\\CommandAPI.test.csproj": {}
   },
   "projects": {
-    "c:\\Users\\benle\\OneDrive\\Documents\\Online_Study\\Complete-ASP-NET-3-API-Tutorial-Book\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj": {
+    "C:\\Users\\benle\\OneDrive\\Documents\\Online_Study\\Complete-ASP-NET-3-API-Tutorial-Book\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\benle\\OneDrive\\Documents\\Online_Study\\Complete-ASP-NET-3-API-Tutorial-Book\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj",
+        "projectUniqueName": "C:\\Users\\benle\\OneDrive\\Documents\\Online_Study\\Complete-ASP-NET-3-API-Tutorial-Book\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj",
         "projectName": "CommandAPI",
-        "projectPath": "c:\\Users\\benle\\OneDrive\\Documents\\Online_Study\\Complete-ASP-NET-3-API-Tutorial-Book\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj",
+        "projectPath": "C:\\Users\\benle\\OneDrive\\Documents\\Online_Study\\Complete-ASP-NET-3-API-Tutorial-Book\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj",
         "packagesPath": "C:\\Users\\benle\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\benle\\OneDrive\\Documents\\Online_Study\\Complete-ASP-NET-3-API-Tutorial-Book\\CommandAPISolution\\src\\CommandAPI\\obj\\",
+        "outputPath": "C:\\Users\\benle\\OneDrive\\Documents\\Online_Study\\Complete-ASP-NET-3-API-Tutorial-Book\\CommandAPISolution\\src\\CommandAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\benle\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -112,14 +112,14 @@
         }
       }
     },
-    "c:\\Users\\benle\\OneDrive\\Documents\\Online_Study\\Complete-ASP-NET-3-API-Tutorial-Book\\CommandAPISolution\\test\\CommandAPI.test\\CommandAPI.test.csproj": {
+    "C:\\Users\\benle\\OneDrive\\Documents\\Online_Study\\Complete-ASP-NET-3-API-Tutorial-Book\\CommandAPISolution\\test\\CommandAPI.test\\CommandAPI.test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\benle\\OneDrive\\Documents\\Online_Study\\Complete-ASP-NET-3-API-Tutorial-Book\\CommandAPISolution\\test\\CommandAPI.test\\CommandAPI.test.csproj",
+        "projectUniqueName": "C:\\Users\\benle\\OneDrive\\Documents\\Online_Study\\Complete-ASP-NET-3-API-Tutorial-Book\\CommandAPISolution\\test\\CommandAPI.test\\CommandAPI.test.csproj",
         "projectName": "CommandAPI.test",
-        "projectPath": "c:\\Users\\benle\\OneDrive\\Documents\\Online_Study\\Complete-ASP-NET-3-API-Tutorial-Book\\CommandAPISolution\\test\\CommandAPI.test\\CommandAPI.test.csproj",
+        "projectPath": "C:\\Users\\benle\\OneDrive\\Documents\\Online_Study\\Complete-ASP-NET-3-API-Tutorial-Book\\CommandAPISolution\\test\\CommandAPI.test\\CommandAPI.test.csproj",
         "packagesPath": "C:\\Users\\benle\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\benle\\OneDrive\\Documents\\Online_Study\\Complete-ASP-NET-3-API-Tutorial-Book\\CommandAPISolution\\test\\CommandAPI.test\\obj\\",
+        "outputPath": "C:\\Users\\benle\\OneDrive\\Documents\\Online_Study\\Complete-ASP-NET-3-API-Tutorial-Book\\CommandAPISolution\\test\\CommandAPI.test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\benle\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -136,8 +136,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\benle\\OneDrive\\Documents\\Online_Study\\Complete-ASP-NET-3-API-Tutorial-Book\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj": {
-                "projectPath": "c:\\Users\\benle\\OneDrive\\Documents\\Online_Study\\Complete-ASP-NET-3-API-Tutorial-Book\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj"
+              "C:\\Users\\benle\\OneDrive\\Documents\\Online_Study\\Complete-ASP-NET-3-API-Tutorial-Book\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj": {
+                "projectPath": "C:\\Users\\benle\\OneDrive\\Documents\\Online_Study\\Complete-ASP-NET-3-API-Tutorial-Book\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj"
               }
             }
           }
@@ -152,9 +152,21 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.3.2, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.3, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
